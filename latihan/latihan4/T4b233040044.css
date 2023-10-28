@@ -1,0 +1,90 @@
+body{
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote,q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table{
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+body{
+    font: 16px/28px cambria;
+    background-color: rgb(63, 157, 158);
+    color: #000;
+}
+.container {
+    width: 800px;
+    margin: auto;
+    background-color: white
+}
+.header {
+    padding: 5px;
+    padding-bottom: 5px;
+}
+.judul {
+    font-size: 45px;
+    font-weight: bold;
+
+}
+.header ul li {
+    display: inline-block;
+    margin right: 8px; 
+
+}
+.header a {
+    text-decoration:none;
+    color: rgb(123, 123, 239);
+    padding: 3px;
+    
+}
+.header a:hover{
+    background-color: salmon; 
+    color: white;
+  }
+  .hero{
+     height: 280px;
+     background-image: url(../latihan3/img/istockphoto-168510937-1024x1024.jpg);
+     background-size: cover;
+     background-position: 0 -140px;
+     border-bottom: 5px solid white;
+     border-top: 5px solid white; 
+  }
+  .content{
+     padding: 25px;
+  }
+  .content h2 {
+     font-size: 29px;
+     font-weight: bold;
+  }
+  .content .penulis {
+     font-size: 14px;
+     margin-top: -10px;
+  }
+  .content .penulis a {
+     color: salmon;
+     text-decoration: none;
+  }
+  .content p {
+     margin-bottom: 20px;
+     font-size: 14px;
+  }
+ 
+  .footer {
+     background-color: #333;
+     padding: 10px;
+  }
+  .copy {
+     color: #eaeaea;
+     text-align: center;
+     font-size: 13px;
+  }
+
